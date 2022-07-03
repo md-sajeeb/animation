@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    background-color: black;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    background: tomato;
+    animation-name: sajeeb;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: linear;
+    position: relative;
+}
+
+@keyframes sajeeb {
+    0% {
+        background-color: tomato;
+        left: 0px;
+        top: 0px;
+    }
+    25% {
+        background-color: aqua;
+        top: 0px;
+        left: 200px;
+    }
+    50% {
+        background-color: yellow;
+        left: 200px;
+        top: 200px;
+    }
+    75% {
+        background-color: deeppink;
+        top: 200px;
+        left: 0px;
+    }
+    100% {
+        background-color: springgreen;
+        left: 0px;
+        top: 0px;
+    }
+}
